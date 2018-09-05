@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggles correctly 1`] = `
+"<div>
+                <div class=\\"planConfirmBody\\">
+                    <div>'Thank you. You have selected Monthly plan of Entrepreneur at $29.'</div>
+                    <a class='teikametricsRectangleBox' href='/'>
+                        <span id='teikamtericsLabel'>Go Back</span>
+                    </a>
+                </div>
+            </div>"
+`;

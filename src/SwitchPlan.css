@@ -37,7 +37,7 @@
     border: 1px solid #ccc;
     width: 70px;
     height: 33px;
-    border-radius: 12px;
+    border-radius: 112px;
     cursor: pointer;
     display: inline-block;
     background-color: #50c1dc
@@ -48,7 +48,7 @@
     width: 31px;
     height: 32px;
     left: 0;
-    border-radius: 12px;
+    border-radius: 108px;
     background: #fff;
     position: relative;
     transition: left .2s ease-in-out

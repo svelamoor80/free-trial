@@ -6,9 +6,9 @@ import {
 } from 'reactstrap';
 import { Plan } from './PlanConfirmationComponent';
 import * as constants from './Constants';
-import './RenderCard.css';
+import './RenderCards.css';
 
-const RenderCard = (props) => {
+const RenderCards = (props) => {
     return (
         <Container>
             <Row>
@@ -31,7 +31,7 @@ const RenderCard = (props) => {
                                     <div className="divider planCardDividerColor"></div>
                                     <div className="spacer"></div>
                                     <div className='planSavingSummary'>Up to <span id='planSavingSummaryDollar'>{data.planSave}</span> per month in advertising spend</div>
-                                    <Link to={{ pathname: "/Plan/" + data.planCharge, myCustProps: { ...data, ...{ switched: props.switched } } }}>
+                                    <Link style={{ textDecoration: 'none' }} to={{ pathname: "/Plan/" + data.planCharge, myCustProps: { ...data, ...{ switched: props.switched } } }}>
                                         <div id={!props.switched ? "selectMonthlyBackground" : "selectYearlyBackground"} className="teikametricsRectangleBox">
                                             <span id="teikametricsLabel">{data.selectPlanText}
                                             </span>
@@ -49,6 +49,6 @@ const RenderCard = (props) => {
 }
 
 export {
-    RenderCard,
+    RenderCards,
     Plan
 }

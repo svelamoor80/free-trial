@@ -13,19 +13,3 @@ export const PLANCONTENTDATA = [
     { img: '/assets/All plans SVGs/auction.svg', title: 'Value-based Bidding', description: 'With our value-based bidding automation you’ll never pay too much (or too little) for a bid again.' },
     { img: '/assets/All plans SVGs/calendar.svg', title: 'Your Data, Your Way', description: 'Our calendar allows you to see your data in a daily, weekly, monthly, yearly, or even custom view. ' }
 ];
-
-const custList = {
-    row1: ['./assets/Company PNGs/techarmor.png',
-        './assets/Company PNGs/markcubancompanies.png',
-        './assets/Company PNGs/greengobbler.png',
-        './assets/Company PNGs/kissmyketo.png'],
-    row2: ['./assets/Company PNGs/hyperikon.png',
-        './assets/Company PNGs/tipsyelves.png',
-        './assets/Company PNGs/nutpods.png',
-        './assets/Company PNGs/marathonsports.png'],
-    row3: ['./assets/Company PNGs/powerpractical.png',
-        './assets/Company PNGs/elizabethmott.png',
-        './assets/Company PNGs/pavoi.png',
-        './assets/Company PNGs/thursdayboots.png']
-};
-
