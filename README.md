@@ -3,9 +3,12 @@ Install
 Run the following scripts to start the application
 
 npm install
+
 npm start
 
-To run tests, enter npm test.
+*To run tests
+
+npm test.
 
 Libraries and packages used
 ---------------------------
