@@ -33,7 +33,21 @@
 .toggleContainer {
     display: flex;
 }
+.switch.on{
+    background:#676dbc
+}
 
+.switch.on .switch-toggle{
+    left:35px
+}
+.switch {
+    width:70px;
+    height:33px;
+    border-radius:112px;
+    cursor:pointer;
+    display:inline-block;
+    background-color: #50c1dc
+}
 @media (min-width: 768px) {
     .switchPlanContainer {
         display: flex;
