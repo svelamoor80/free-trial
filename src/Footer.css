@@ -25,10 +25,11 @@
     font-weight: 600;
     line-height: 14px;
     margin: 0 auto; 
+    
   }
   
   #footerDivider {
-    width: 961px;
+    width: 80%;
     height: 1px;
     border: .5px solid #96939e;
     opacity: 0.8;
@@ -36,6 +37,8 @@
     padding: 0px;
     margin-top: 50px;
     margin-bottom:50px;
+    display: flex;
+    flex-flow: row-wrap;
   }
   
   ul, li {
