@@ -1,0 +1,25 @@
+.agencyContainer {
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#agencyLabel {
+    /* width: 279px; */
+    height: 100px;
+    color: #292533;
+    font-family: "Graphik-Semibold";
+    font-size: 32px;
+    font-weight: 600;
+    padding-top:20px;
+}
+
+#helpLabel {
+    /* width: 438px; */
+    height: 19px;
+    color: #292433;
+    font-family: "Graphik";
+    font-size: 15px;
+    font-weight: 400;
+    /* line-height: 19px; */
+}

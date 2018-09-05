@@ -1,0 +1,69 @@
+.planLbl {
+    font-family: "Graphik-Medium";
+    font-size: 15px;
+    font-weight: 500;
+    color: #96939e;
+}
+
+#priceStructLabel {
+    font-family: "Graphik-Semibold";
+    font-size: 14px;
+    font-weight: 600;
+    color: #50c1dc;
+    letter-spacing: 1.87px;     
+}
+
+#planMatchLabel {
+    color: #292533;
+    font-family: "Graphik-Semibold";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+}  
+
+.planLbl#active {
+    color: #292533;
+}
+
+.planLbl {
+    padding-right: 20px;
+    padding-left: 20px;
+} 
+
+.toggleContainer {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .switchPlanContainer {
+        display: flex;
+        flex-wrap: wrap;    
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+    #selectLbl {
+        width:45%;
+        text-align: left;        
+    }
+    .prefix {
+        width:5%;
+    }
+    .toggleContainer {
+        width: 50%
+    }
+}
+
+@media (min-width:360px) {
+    .selectLbl {
+        margin: auto;
+        text-align: center;            
+    }
+    .toggleContainer {
+        justify-content: center;     
+    }
+}
+
+
+
+

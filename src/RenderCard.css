@@ -1,0 +1,47 @@
+.cardText {
+    text-align: center;
+}
+
+.planCardTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 42px;
+    font-family: "Graphik-Semibold";
+}
+
+.planCardCharge {
+    color: #292433;
+    font-family: "Graphik-Light";
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 42px;
+}
+
+#cardSpacing {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.perMonthLabel {
+    color: #96939e;
+    font-family: "Graphik-Medium";
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+.planCardDividerColor {
+    background-color: #e5e5e5;
+}
+
+.planSavingSummary {
+    color: #292433;
+    font-family: "Graphik";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#planSavingSummaryDollar {
+    font-family: "Graphik-Medium";
+    font-weight: 500;
+}

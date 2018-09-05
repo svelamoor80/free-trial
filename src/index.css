@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Graphik;
+  src: url("/assets/Graphik/Graphik-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik-Medium";
+  src: url("/assets/Graphik/Graphik-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik-Semibold";
+  src: url("/assets/Graphik/Graphik-Semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik-Light";
+  src: url("/assets/Graphik/Graphik-Light.otf") format("opentype");
+}
+
+body {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.teikaLogo {
+  text-align: center;
+  vertical-align: middle;
+}
+.spacer {
+  margin-top: 15px;
+}
+
+.mediumSpacer {
+  margin-top: 30px;
+}
+
+.largeSpacer {
+  margin-top: 50px;
+}
+
+.divider {
+  width: 95px;
+  height: 3px;
+  border-radius: 10px;
+  margin:auto;
+  padding: 0px;
+}
+
+.teikametricsRectangleBox {
+  margin:auto;
+  padding: 0px;
+  width: 175px;
+  height: 50px;
+  border-radius: 3px;
+  margin-top: 20px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+#teikametricsabel {
+  width: 73px;
+  height: 39px;
+  color: #41bad7;
+  font-family: "Graphik-Semibold";
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#selectMonthlyBackground {
+  color:#50c1dc;
+  background-color: #f2fcff;
+  border: 1px solid #81d4e8;
+}
+
+#selectYearlyBackground {
+  color:#676dbc;
+  background-color:#f0f1fa;
+  border: 1px solid #9499d3;
+}
+
+#monthlyBackground {
+  background-color: #50c1dc;
+  color: white;
+}
+
+#yearlyBackground {
+  background-color: #676dbc;
+  
+}
+
+

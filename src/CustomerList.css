@@ -1,0 +1,61 @@
+.growingListContainer {
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#meetCustLabel {
+    font-family: "Graphik-Semibold";
+    font-size: 14px;
+    font-weight: 600;
+    color: #50c1dc;
+    letter-spacing: 2px;
+}
+
+#growingListLabel {
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: "Graphik-Semibold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #292633;
+}
+
+.custListDividerColor {
+    background-color: #50c1dc;
+}
+
+.logoGallery img {
+    width: 40%;
+    height: 40%;
+}
+
+@media all and (max-width:500px) {
+    table {
+      width: 100%;
+    }
+  
+    td {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    tr {
+      display: block;
+    }
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    margin-bottom: 100px;
+}
+  
+.logoGallery img {
+    width: 50%;
+    height: 50%;
+}
