@@ -33,21 +33,47 @@
 .toggleContainer {
     display: flex;
 }
-.switch.on{
-    background:#676dbc
+.switch {
+    border: 1px solid #ccc;
+    width: 70px;
+    height: 33px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #50c1dc
+}
+.switch-toggle {
+    border: 1px solid #999;
+    box-shadow: 1px 1px 1px #ccc;
+    width: 31px;
+    height: 32px;
+    left: 0;
+    border-radius: 12px;
+    background: #fff;
+    position: relative;
+    transition: left .2s ease-in-out
+}
+    
+.switch.on {
+    background: #676dbc
+}
+
+.switch.on .switch-toggle {
+    left: 35px
+}
+    
+.switch.disabled {
+    cursor: not-allowed
+}
+
+.switch.on {
+    background: #676dbc
 }
 
 .switch.on .switch-toggle{
-    left:35px
+    left: 35px
 }
-.switch {
-    width:70px;
-    height:33px;
-    border-radius:112px;
-    cursor:pointer;
-    display:inline-block;
-    background-color: #50c1dc
-}
+
 @media (min-width: 768px) {
     .switchPlanContainer {
         display: flex;
