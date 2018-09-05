@@ -17,6 +17,7 @@ npm install && npm start
 * React router for navigation
 * reactstrap, flex for css components
 * jest for testing
+* react-test-renderer for creating snapshots for testing purposes
 
 # Structure
 

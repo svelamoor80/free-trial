@@ -10,6 +10,7 @@ const CustomerList = () => {
                 <div id="growingListLabel">A few of our growing list of successful Amazon sellers</div>
                 <div className="divider custListDividerColor"></div>
             </div>
+            <div className="mediumSpacer"></div>
             <Container>
                 <table>
                     <tbody className='logoGallery'>

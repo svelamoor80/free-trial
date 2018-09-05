@@ -1,3 +1,6 @@
+.card {
+    box-shadow: 0 10px 30px rgba(56, 62, 68, 0.14);
+}
 .cardText {
     text-align: center;
 }
@@ -44,4 +47,10 @@
 #planSavingSummaryDollar {
     font-family: "Graphik-Medium";
     font-weight: 500;
+}
+
+@media (max-width: 414px) {
+    .card {
+        margin:30px;
+    }
 }

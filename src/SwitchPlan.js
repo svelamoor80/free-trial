@@ -19,7 +19,6 @@ const SwitchPlan = (props) => {
                     <div className="switchButton"><Switch onClick={props.toggleSwitch} on={props.switched} /></div>
                     <div className="planLbl" id={props.switched ? "active" : ""}> Yearly Plan - Save 20%</div>
                 </div>
-
             </div>
         </Container>
     )

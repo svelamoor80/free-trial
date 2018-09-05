@@ -22,8 +22,6 @@ const PlanContent = () => {
                                 <div className="contentDescription">{data.description}</div>
                                 <div className="mediumSpacer"></div>
                             </Col>
-
-
                         ))
                     }
                 </Row>
