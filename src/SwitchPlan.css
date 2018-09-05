@@ -94,14 +94,16 @@
     }
 }
 
-@media (min-width:360px) {
+@media (max-width:480px) {
     .selectLbl {
-        margin: auto;
-        text-align: center;            
+        margin-left: 15px; 
+        margin-right: 15px;       
     }
-    .toggleContainer {
-        justify-content: center;     
+
+    #priceStructLabel, #planMatchLabel {
+        text-align: center;
     }
+    
 }
 
 

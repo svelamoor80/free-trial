@@ -11,7 +11,7 @@ const PlanContent = () => {
                     <Col>Included in all plans</Col>
                 </Row>
             </Container>
-            <div className="mediumSpacer"></div>
+            <div className="largeSpacer"></div>
             <Container>
                 <Row>
                     {
