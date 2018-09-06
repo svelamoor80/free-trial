@@ -24,7 +24,7 @@ const Footer = () => {
                         </ul>
                     </Col>
                     <Col lg='2' sm='12'>Company</Col>
-                    <Col lg='2' sm='12'><div id="freeDemoRect"><span>Get a free demo</span></div></Col>
+                    <Col lg='2'><div id="freeDemoRect"><div style={{ paddingTop: '5px' }}>Get a free demo</div></div></Col>
                 </Row>
             </Container>
 
@@ -46,6 +46,7 @@ const Footer = () => {
             <Container className="footerLogoContainer">
                 <img src="./assets/Footer/socialicons.svg" alt="social media logos" />
             </Container>
+            <div className="largeSpacer"></div>
         </div>
     )
 }
