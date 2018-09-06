@@ -16,6 +16,7 @@ npm install && npm start
 * React for render
 * React router for navigation
 * reactstrap, flex for css components
+* react-toggle-switch for toggle button
 * jest for testing
 * react-test-renderer for creating snapshots for testing purposes
 
